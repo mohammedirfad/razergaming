@@ -1,0 +1,673 @@
+body{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 61px;
+    background-color: black;
+    border-bottom: 1.5px solid rgb(17, 220, 17);
+   /* position: fixed;*/
+}
+.sub_header{
+    width: 1200px;
+    height: 61px;
+    margin: 0px 166px;
+  
+    gap: 10px;
+    /*padding: 20px 30px 0px 60px;*/
+   /* background-color:red;*/
+
+}
+.logo{
+    width: 35px;
+    height: 35.15px;
+    vertical-align: middle;
+    /* margin-top: -1px; */
+    position: relative;
+    bottom: -13px;
+    left: 6px;
+}
+.nav{
+    width: 1178px;
+    height: 45px;
+    
+    margin-left: 70px;
+    margin-top: -28px;
+    display: flex;
+    gap: 60px;
+
+}
+
+.nav_text{
+    width: 74px;
+    height: 40px;
+  
+    align-items: center;
+    margin-top: 3px;
+
+}
+.nav_text1{
+    color: #555555;
+    color: #555555;
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+    font-family: RazerF5,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    margin-top: 10px;
+}
+.nav_link{
+    text-decoration: none;
+}
+.nav_link:hover{
+    color: white;
+}
+.img1{
+    width: 29px;
+    height: auto;
+    text-align: center;
+    margin-left: 21px;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sec_header{
+    width: 100%;
+    height: 41px;
+    background-color:#555555;
+
+}
+.header_text{
+    color: #eee;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: regular;
+    letter-spacing: 0.1px;
+    line-height: 21px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 11px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.link_tag{
+    text-decoration: none;
+    color:white;
+}
+.link_tag:hover{
+    text-decoration: underline;
+
+}
+.section1{
+    width: 100%;
+    height: 700px;
+    background-image: url('bg1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.box_text{
+    height: 220px;
+    width: 1200px;
+
+    margin-left: 152px;
+    text-align: center;
+    padding-top: 61px;
+}
+
+.bigger{
+    height: 65px;
+    width: auto;
+    margin: 0;
+   
+ 
+}
+
+.big_text{
+   
+    color: #fff;
+    font-family: Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing:normal;
+    line-height: 24px;
+    font-size: 51px;
+    margin-top: 9px;
+    padding-top: -2px;
+    /* font-family: arial,sans-serif; */
+    font-weight: 600;
+    text-align: center;
+    padding: 26px;
+    margin: 0;
+   
+}
+.sub_text{
+    margin: 0;
+    padding-top: 10px;
+}
+.atag{
+    text-decoration: none;
+    
+}
+.atag1:hover{
+    text-decoration: underline;
+    color: #eee;
+}
+.atag1{
+    text-decoration: none;
+    
+}
+.atag:hover{
+    text-decoration: underline;
+    color: #eee;
+}
+
+.sub_text1{
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    font-size: 1.50rem;
+    box-sizing: border-box;
+    line-height: 1.2;
+    color: white;
+    margin-top: -5px;
+    /* margin-top: 9px; */
+    padding-top: 3px;
+}
+.link_text{
+  
+    margin: 0px;
+    display: inline-block;
+    width: 500px;
+    margin-left: -136px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 21px;
+
+}
+.link_text1{
+    color:white;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 391px;
+}
+.link_text2{
+   /* olor: green;
+    margin-top: -100px;*/
+    margin-left: 100px;
+    margin-top: -44px;
+    margin-left: 504px;
+    color: rgb(54, 167, 54);
+
+}
+.link_text0{
+  
+    margin: 0px;
+    display: inline-block;
+    width: 500px;
+    margin-left: -136px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 21px;
+
+}
+.link_text10{
+    color:white;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: -71px;
+}
+.link_text20{
+   /* olor: green;
+    margin-top: -100px;*/
+    margin-left: 100px;
+        margin-top: -44px;
+    margin-left: -9px;
+    color: rgb(54, 167, 54);
+}
+.selection2{
+    width: 100%;
+    height: 700px;
+    background-image: url('bg2.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.box_text1{
+    width: 1200px;
+    height: 226px;
+    position:relative;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+.button_text{
+    width: auto;
+    height: 61.4px;
+  
+}
+.small_button{
+    width: 100px;
+    height: 36.4px;
+    background-color:rgb(255,156,7);
+    margin: auto;
+
+}
+.text1{
+   
+    line-height: 1 em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: .6rem;
+    margin-left: 12px;
+
+}
+.text2{
+    font-size: .8em;
+    margin-left: 12px;
+    margin-top: 1px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.bigger_text{
+    width: auto;
+    height: 68px;
+    
+}
+.bigger_text1{
+   font-family:  Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-seri;
+   margin: 0;
+   text-align: center;
+    font-size: 2.8rem;
+    /* font-size: 3.5rem; */
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    width: auto;
+    color: white;
+}
+.sec_text{
+    width: auto;
+    height: 43.6px;
+
+    margin: 0;
+    margin-top: -27px;
+    padding: 0px;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 400px;
+    font-size: 27px;
+    text-align: center;
+    color: white;
+
+
+}
+.third_text{
+    width: auto;
+    height: 40px;
+   
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+.hover1{
+    text-decoration: none;
+}
+.third_text1{
+    font-size: 1.3125rem;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+}
+.third_text2{
+    
+    color:rgb(67,211,43);
+    margin-top: 8px;
+    margin-left: -14px;
+    font-size: 24px;
+}
+
+
+.hover2{
+    text-decoration: none;
+}
+.hover1:hover{
+    text-decoration: underline;
+    color: white;
+}
+.hover2:hover{
+    text-decoration: underline;
+    color: white;
+}
+.third_text10{
+    font-size: 1.3125rem;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+}
+.third_text20{
+    color:rgb(67,211,43);
+    margin-top: 8px;
+    margin-left: -14px;
+    font-size: 24px;
+}
+.we{
+    width: 100%;
+    height: 10px;
+    background-color: #555555;
+}
+.selection3{
+    width: 100%;
+    height: 700px;
+    background-image: url('bg3.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 1200px;
+    height: 200px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+
+}
+.container_text{
+    width: 1200px;
+    height:100px;
+   
+}
+.container_text1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 48px;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    font-weight: 600;
+    color:white;
+    margin: 20px;
+}
+.container_text0{
+    width: 1200px;
+    height:43px;
+   
+}
+.container_text10{
+    color:white;
+    margin: 0;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 1.5rem;
+}
+.container_link{
+    text-decoration: none;
+}
+.container_link:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.container_text100
+{
+    text-align: center;
+    font-size: 1.4rem;
+    font-family:"RazerF5",Arial,Helvetica,sans-serif;;
+    margin: 10px;
+    color:white;
+   
+}
+.symbol{
+    color: green;
+    text-align: center;
+    font-size: 23px;
+    margin-top: -36px;
+    font-weight: 600;
+    margin-left: 141px;
+}
+.selection4{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(34,34,34);
+}
+.sub_sele{
+    width: 49.5%;
+    height: 560px;
+    background-image: url('bg4.jpg'); background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    
+   
+}
+.sub_des1{
+    width: 680px;
+    height: 142px;
+    background-color:white;
+}
+.sub_des11{
+    color: white;
+    text-align: center;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    margin-top: 26px;
+    line-height: 2.5;
+}
+.sub_des12{
+    color: white;
+    text-align: center;
+    margin-top: -47px;
+    font-size: 1.25rem;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.hover12{
+    text-decoration: none;
+}
+.third_text12{
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    margin-top: -8px;
+    text-align: center;
+    margin-left: -107px;
+}
+.third_text22{
+    
+    font-size: 24px;
+    color: rgb(67,211,43);
+   
+   
+    margin-top: -41px;
+    margin-left: 12px;
+    text-align: center;
+
+
+}
+
+
+.hover23{
+    text-decoration: none;
+}
+.hover12:hover{
+    text-decoration: underline;
+    color: white;
+}
+.hover23:hover{
+    text-decoration: underline;
+    color: white;
+}
+.third_text103{
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    margin-top: -49px;
+    text-align: center;
+    margin-left: 148px;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+}
+.third_text203{
+    color: rgb(67,211,43);
+    margin-top: -42px;
+    margin-left: 220px;
+    font-size: 24px;
+    text-align: center;
+    
+}
+.sub_sele1{
+    width: 49.5%;
+    height: 560px;
+    background-image: url('bg5.jpg'); background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    
+   
+}
+footer{
+    width: 100%;
+    height: 371px;
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+
+}
+.sub_footer{
+    width: 1200px;
+    height: 270px;
+ 
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20px;
+    display: flex;
+
+}
+.first_container{
+    width: 238.8px;
+    height: 270px;
+    
+    border-bottom: 1px solid  #999;
+}
+.heading{
+    margin: 0;
+    padding-top: 14px;
+    padding-left: 11px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    color: white;
+}
+ul{
+    margin: 0;
+}
+.texts{
+list-style: none
+    ;
+    list-style: none;
+    font-size: 12px;
+    font-family: sans-serif;
+   
+   
+    margin-left: -28px;
+    margin-top: 10px;
+    color:#999;
+    line-height: 1.5;
+}
+
+.texts:hover{
+    color: white;
+}
+
+.hov{
+    text-decoration: none;
+}
+.hov:hover{
+    
+    text-decoration: underline;
+    color: white;
+ 
+
+}
+.heading1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 17px;
+    color: green;
+}
+.media{
+  
+    width: 120px;
+    height: 30px;
+ 
+    float: right;
+    display:flex;
+    gap: 10px;
+}
+.media1{
+    width: 30px;
+    height: 30px;
+}
+.copy
+{
+  
+    width: 1198px;
+    height: 50px;
+  
+    margin-top: 33px;
+    align-items: center;
+    margin-left: 161px;
+}
+.copy_write{
+   width: 300px;
+   height: 14.4px;
+ 
+   /* padding-bottom: 6px; */
+   /* margin-top: 32px; */
+   padding-top: 1px;
+   position: relative;
+   top: 9px;
+   color: #eee;
+   
+
+}
+.p1{
+    font-size: 15px;
+    margin: -2px;
+}
+.link1{
+    width: 450px;
+    height: 15.4px;
+    display: flex;
+   
+    margin-left: 306px;
+    margin-top: -6px;
+}
+.foot{
+    width: 120px;
+    height: 15px;
+    border-right: 1px solid #555555;
+}
+.foot1{
+    size: 14px;
+    margin: 0;
+    color:white;
+    margin-left: 13px;
+    margin-top: -2px;
+}
